@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LuckySong</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contain">
+      <div class="sidenav">
+        <ul style="margin-top: 23px">
+          <img
+            src="/image/app_logo.png"
+            alt=""
+            height="43px"
+            width="43px"
+            style="border-radius: 23px"
+          />
+          <span class="title"><b>LuckySong</b></span>
+          <img
+            src="play.gif"
+            alt=""
+            height="43"
+            width="123"
+            style="border-radius: 23px; display: none"
+            id="gif"
+          />
+          <li class="navbar">
+            <a href="index.html"
+              ><i class="fa fa-home" aria-hidden="true"> Home</i></a
+            >
+          </li>
+          <li class="navbar">
+            <a href="#"
+              ><i class="fa fa-search" aria-hidden="true"> Search</i></a
+            >
+          </li>
+          <li class="navbar">
+            <a href="#"
+              ><i class="fa fa-download" aria-hidden="true"> Downloads</i></a
+            >
+          </li>
+          <li class="navbar"><a href="#"> About</a></li>
+          <li class="navbar"><a href="#"> Contact Us</a></li>
+          <li class="navbar"><a href="#"> Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="song">
+          <img
+            src="/all songs/song images/Mangi mangi dua.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Mangi Mangi Dua <br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="mangi()"
+            id="mangi_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="mangi_pause"
+          ></i>
+          <a
+            href="/all songs/Mangi Mangi Dua Mangi Hai-Arijit Singh.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Teri Yaadon Mein- Yasser Desai.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Teri Yaadon mein <br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="teri_yado()"
+            id="teri_yado_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="teri_yado_pause"
+          ></i>
+
+          <a
+            href="/all songs/Teri Yaadon Mein- Yasser Desai.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Like you be strong.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Like You be strong <br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="like_you()"
+            id="like_you_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="like_you_pause"
+          ></i>
+
+          <a
+            href="/all songs/Like You Be Strong ! Superhero - Unknown Brain.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Life is drink.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Life is drink <br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="life_is()"
+            id="life_is_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="life_is_pause"
+          ></i>
+
+          <a
+            href="/all songs/Life Is Drink - Hynm For The Weekend ! BGM.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Chcichore.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Chhichhore - Friendship Dialogue <br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="Chhichhore()"
+            id="Chhichhore_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="Chhichhore_pause"
+          ></i>
+
+          <a
+            href="/all songs/Chhichhore - Friendship Dialogue.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Bin tere sanam.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          BIN-TERE-SANAM-AY-REMIX<br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="bin_tere_sanam()"
+            id="bin_tere_sanam_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="bin_tere_sanam_pause"
+          ></i>
+
+          <a href="/all songs/BIN-TERE-SANAM-AY-REMIX-11.mp3" class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Jhume jo pathan.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Jhume jo pathan<br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="Jhume_jo_pathan()"
+            id="Jhume_jo_pathan_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="Jhume_jo_pathan_pause"
+          ></i>
+
+          <a
+            href="/all songs/Jhoome Jo Pathaan meri jaan - Jhoome Jo Pathaan ! Pathaan.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Vikram- vijay sethupathi.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Vikram- vijay sethupathi<br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="vikram()"
+            id="vikram_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="vikram_pause"
+          ></i>
+
+          <a
+            href="/all songs/Vikram - Vijay Sethupathi Entry Bgm __CaronTunes_Full-HD.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Phir na aisi raat ayegi.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Phir na aisi raat ayegi<br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="phir_na_aisi()"
+            id="phir_na_aisi_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="phir_na_aisi_pause"
+          ></i>
+
+          <a
+            href="/all songs/Phir Na Aisi Raat Aayegi - Arijit Singh ! Hindi.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Na bhula saka.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Na bhula saka - Dil ! Ek Villain Returns<br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="na_bhula_saka()"
+            id="na_bhula_saka_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="na_bhula_saka_pause"
+          ></i>
+
+          <a
+            href="/all songs/Na bhula saka - Dil ! Ek Villain Returns.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+        <div class="song">
+          <img
+            src="/all songs/song images/Bazigar.jpeg"
+            alt=""
+            height="93"
+            width="93"
+            style="border-radius: 23px"
+          /><br /><br />
+          Baazigar - DIVINE <br /><br />
+          <i
+            class="fa fa-play"
+            aria-hidden="true"
+            style="font-size: 33px"
+            onclick="bazigar()"
+            id="bazigar_play"
+          ></i>
+          <i
+            class="fa fa-pause"
+            aria-hidden="true"
+            style="font-size: 33px; display: none"
+            id="bazigar_pause"
+          ></i>
+
+          <a
+            href="/all songs/Baazigar - DIVINE ! Gunehgar ! Armani White.mp3"
+            class="download"
+            ><span class="download">Download</span></a
+          >
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
